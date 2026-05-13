@@ -122,7 +122,7 @@ La aplicación permite:
 # 📂 Estructura del proyecto
 
 ```bash
-flix-tv-clone/
+PlataformaStreaming/
 │
 ├── index.html
 ├── catalog.html
@@ -394,7 +394,7 @@ git push origin feature/AmazingFeature
 
 <div align="center">
 
-## Flix TV Clone Developers
+## Isai Reyes Developer
 
 Desarrolladores enfocados en experiencias multimedia modernas y plataformas OTT.
 
