@@ -1,0 +1,199 @@
+/* base */
+@import "../base/_reset.css";
+@import "../base/_variables.css";
+@import "../base/_typography.css";
+@import "../base/_global.css";
+/* setting profile */
+.main {
+    margin-top: 10rem;
+    background: var(--bg-color);
+}
+.content{
+    width: 1170px;
+    height: 890px;
+    margin: 0 auto;
+    /* background-color: #131720; */
+    color:#d1d0cf;
+    text-align: left; 
+    /* justify-content: flex start; */
+}
+.main-title{  
+    display: flex;
+    align-items: center;
+    width: 1138px;
+    height: 34px;
+    color: white;
+    font-size: 29px;
+    text-align: left;
+    line-height: 34px;
+    padding: 2rem 0;
+}
+.main-title h4{
+    font-size: 29px;
+    padding-left: 18px;
+    padding-bottom: 18px;
+}
+.setting__wrapper {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.user-card{
+    display: flex;
+    width: 359px;
+    height: 400px;
+    background-color: #191919;
+    box-shadow:#000000 0px 0px 20px 0px;
+    color:#d1d0cf;
+    line-height:24px;
+    text-align:center;
+    padding: 30px;
+}
+.user-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding-top: 0px;
+    margin: 0px 65px 16px;
+}
+.user-card a{
+    width: 27px;
+    height: 24px;
+    color: red;
+    font-size: 21px;
+    text-align: center;
+    padding-right: 20px;
+}
+#user-name{
+    color: white;
+    font-family: 'Inter';
+    font-size: 29px;
+    width: 298px;
+    height: 34px;
+    position: absolute;
+    padding-top: 160px;
+    margin-left: -15px;
+}
+.user-card p{
+    position: absolute;
+    font-size: 15px;
+    width: 300px;
+    height: 106px;
+    padding-top: 200px;
+    line-height: 26px;
+    text-align: center;
+    margin: 0px 0px 16px;
+}
+.user-infor{ 
+    width: 750px;
+    background-color:#191919 ;
+    box-shadow: #000000 0px 0px 20px 0px;
+    color:#d1d0cf;
+    line-height:24px;
+    padding: 30px;
+}
+.user-infor h5{
+    display: block;
+    width: 688px;
+    height: 43px;
+    font-size: 21px;
+    line-height: 25px;
+    color: white;
+    margin:0px 0px 16px;
+    padding:0px 0px 16px;
+    text-align:left;
+    border: 0.063em solid;
+    border-width: 0 0 0.063em 0;
+}
+.email{
+    width: 720px;
+    height: 51px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    line-height: 24px;
+    margin: 0px -16px 16px;
+}
+.email-left{
+    width: 480px;
+    flex-basis: 66.6667%;
+    height: 51px;
+    line-height: 24px;
+    padding: 0 16px;
+    text-align: left;
+    color: #d1d0cf; 
+}
+.email-right{
+    width: 240px;
+    height: 24px;
+    flex-basis: 33.3333%;
+    padding: 0px 16px;
+    text-align: right;
+}
+#bill{
+    width: 688px;
+    height: 43px;
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:21.328px;
+    line-height:25.5936px;
+    margin:24px 0px 16px;
+    padding:0px 0px 16px;
+    text-align:left;
+}
+.cancel-bill{
+    width: 480px;
+    height: 87px;
+    flex-basis: 66.6667%;
+    text-align: left;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+#cancelbill{
+    display: block;
+    width: fit-content;
+    line-height:24px;
+    padding:9.008px 30px;
+    text-align:center;
+}
+.update-payment{
+    width: 240px;
+    height: 87px;
+    color:#d1d0cf;
+    flex-basis:33.3333%;
+    line-height:24px;
+    padding: -1px 16px;
+    text-align:right;
+    float: right;
+    margin-top: -107px;
+}
+/* .plan{
+    width: 480px;
+    height: 43px;
+    flex-basis: 66.6667%;  
+} */
+.plan-change {
+    width: 240px;
+    float: right;
+    margin-top: -80px;
+    height: 43px;
+    flex-basis: 33.3333%;
+    text-align: right;
+}
+.setting{
+    width: 480px;
+    height: 43px;
+    flex-basis: 66.6667%;  
+    border: 0.063em solid;
+    border-width: 0 0 0.063em 0;
+}
+.setting2{
+    padding-top:16px;
+    width: 720px;
+    height: 80px;
+    line-height: 24px;
+    text-align: left;
+    margin: none;
+}
+
+  
